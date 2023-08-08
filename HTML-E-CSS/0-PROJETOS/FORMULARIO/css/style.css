@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.required-field {
+    color: #e41414;
+}
+
+body {
+    background-color: #f0ebf8;
+}
+
+.header {
+    background-color: #673ab7;
+    height: 160px;
+    color: white;
+    padding: 20px;
+}
+
+.form-container {
+    position: relative;
+    background-color: #fff188;
+    text-align: center;
+}
