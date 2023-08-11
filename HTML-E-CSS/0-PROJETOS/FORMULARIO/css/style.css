@@ -6,28 +6,132 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.required-field {
-    color: #e41414;
-}
-
 body {
     background-color: #f0ebf8;
 }
 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    color: #333;
+}
+
+p, 
+label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="date"], 
+input[type="number"], 
+input[type="file"],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
 .header {
-    background-color: #673ab7;
     height: 160px;
-    color: white;
     padding: 20px;
+    background-color: #673ab7;
+}
+
+.header h3 {
+    color: #fff;
+    margin-top: 0;
 }
 
 .form-container {
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: column;
+    background-color: #fdfdfd;
+    width: 60%;
     margin: 0 auto;
-    background-color: #fff188;
-    align-items: center;
-
+    position: relative;
+    top: -62px;
 }
 
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-main {
+    padding: 30px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: #d80835;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-box p {
+    padding-bottom: 15px;
+}
+
+.optional-list {
+    columns: 2;
+    list-style: none;
+}
+
+.box-input p {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: #673ab7;
+    color: #673ab7;
+}
